@@ -1,0 +1,61 @@
+.header-One{
+  display: flex;
+  justify-content: space-between;
+  background: grey;
+  height: 32px;
+}
+
+.header-one-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.company-info {
+  display: flex;
+  gap: 0.4rem;
+}
+.company-info span {
+  font-family: "Noto Serif", serif;
+  color: var(--primary-color);
+  margin-inline: 0.2rem;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.icon {
+  color: var(--primary-color);
+}
+
+.header-one-right {
+  display: flex;
+  align-items: center;
+}
+.header-cart {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.header-cart .icon {
+  font-size: 22px;
+}
+
+.header-cart span {
+  font-family: var(--primary-font);
+
+  color: var(--primary-color);
+}
+
+.line {
+  width: 0.8px;
+  height: 18.9px;
+  background-color: var(--primary-color);
+  margin-inline: 0.5rem;
+}
+.medias {
+  display: flex;
+  flex-direction: row;
+}
+.medias .icon {
+  margin-inline: 0.5rem;
+}

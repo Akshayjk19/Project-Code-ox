@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&display=swap");
+:root{
+    --primary-color: #e2e2e2;
+    --secondary-color:#636465;
+    --secondary-color2:#f1f1f1;
+    --primary-color2: #bfbbbb;
+    --primary-font:"Noto Serif", serif;
+}
+
+.App{
+    /* background: rgb(35, 35, 35); */
+}

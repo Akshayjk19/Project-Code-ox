@@ -1,0 +1,27 @@
+.let-talk{
+    border: 1px solid grey;
+    width: 100%;
+    background: linear-gradient(135deg, #7D8085 0%, #393D46 53.86%);
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    box-shadow: 4px 4px 15px;
+}
+
+.let-talk h1{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 35px;
+}
+
+.quotation-btn{
+    padding: 0.8rem;
+    border: 1px solid var(--primary-color);
+    background: transparent;
+    border-radius: 0.3rem;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 12px;
+}

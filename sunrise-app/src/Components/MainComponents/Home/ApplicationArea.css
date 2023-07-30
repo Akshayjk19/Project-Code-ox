@@ -1,0 +1,83 @@
+.application-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    background: white;
+}
+
+.application-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.application-info-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.application-header{
+    display: flex;
+    align-items: center;
+}
+
+.application-header h1{
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
+
+.application-para{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.application-para p{
+    width: 80%;
+    text-align: center;
+    font-family: var(--primary-font);
+    color: var(--primary-color2);
+}
+
+.application-buttons{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 1rem;
+}
+
+.application-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.application-button-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.application-button-row button{
+    width: 100%;
+    padding: 1rem;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 0.3rem;
+    font-family: var(--primary-font);
+    font-size: 12px;
+}
+
+.application-button-row button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.app-talk{
+    width: 80%;
+}

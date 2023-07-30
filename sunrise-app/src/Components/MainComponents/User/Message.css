@@ -1,0 +1,42 @@
+.message-main{
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+    padding-top: 5rem;
+    padding-inline: 4rem;
+}
+
+.message-one{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 3rem;
+}
+
+.bg-box{
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgb(20, 28, 19);
+}
+
+.message-image img{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    right: 70px;
+    bottom: 64px;
+}
+
+.message-two{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}

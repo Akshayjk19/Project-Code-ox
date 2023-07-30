@@ -1,0 +1,85 @@
+.testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   padding: 1rem; 
+    background: white;
+}
+
+.testimonial-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.testimonial-para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.testimonial-para h1{
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    font-size: 36px;
+}
+
+.testimonial-para p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: var(--primary-color2);
+    font-family: var(--primary-font);
+}
+
+.testimonial-message{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 15px;
+}
+
+.message{
+    padding: 1rem;
+    border: 1px solid rgb(176, 176, 176);
+    color: var(--primary-color2);
+}
+
+.testimonial-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+}
+
+.testi-profile-div{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.testi-profile-info h1{
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    font-size: 15px;
+}
+
+.testi-profile-info h5{
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    font-size: 10px;
+}
+
+.testi-profile-pic{
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
