@@ -9,7 +9,11 @@ import UserHome from './Components/MainComponents/User/UserHome';
 function App() {
   return (
     <div className="App">
-  <UserHome/>
+  <BrowserRouter>
+  <Routes>
+  <Route path='/' element={<Home/>} />
+  </Routes>
+  </BrowserRouter>
   
   
     </div>
