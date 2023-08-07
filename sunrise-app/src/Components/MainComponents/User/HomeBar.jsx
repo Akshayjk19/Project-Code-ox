@@ -7,6 +7,7 @@ function HomeBar() {
   return (
     <div className='home-bar-main'>
     <div className='home-image'>
+    <div></div>
     <img src={homeimg} />
     </div>
     <div className='home-bar'>
